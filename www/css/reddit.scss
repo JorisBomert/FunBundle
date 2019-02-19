@@ -1,0 +1,186 @@
+@import "variables";
+
+.redditMainTitle {
+    display: block;
+    padding-bottom: 3em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.RedditTitle {
+    margin-left: 3em;
+}
+
+.title {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postFrom {
+    display: inline-block;
+    width: 50%;
+    padding-top: 2%;
+    float: right;
+}
+
+.all, .funny, .memes, .aww {
+    background-color: $main-blue;
+    color: $main-gray;
+    border: none;
+    border-radius: 12px;
+    width: 40%;
+    font-size: 1em;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    margin-right: 0.2em;
+}
+
+#selected {
+    background-color: #7fb1ff;
+}
+
+.posts {
+    display: block;
+    width: 90%;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.redditPostUrl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eachPost {
+    width: 40%;
+    display: inline-block;
+}
+
+.postTitle {
+    text-align: center;
+}
+
+.viewPostTitle {
+    display: block;
+    text-align: center;
+}
+
+.author {
+    display: block;
+    text-align: center;
+}
+
+.postImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.share {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.shareButton {
+    margin-right: 0.2em;
+    padding: 0.5em;
+    background-color: #2a6ab2;
+    color: #f2f8ff;
+    border: none;
+}
+
+.shareInput {
+    padding: 0.5em;
+}
+
+.addComment {
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.wannaComment {
+    display: block;
+}
+
+.commentButton {
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: #2a6ab2;
+    color: #f2f8ff;
+    border: none;
+    display: block;
+    margin-top: -1em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.redditViewComments {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.originComment {
+    margin-left: 0;
+}
+
+.firstReply {
+    margin-left: 1.5em;
+}
+
+.secondReply {
+    margin-left: 3em;
+}
+
+.userName {
+    display: block;
+    font-style: italic;
+}
+
+.commentText {
+    display: block;
+    margin-top: -0.8em;
+    margin-bottom: 1.5em;
+}
+
+.selftext {
+    text-align: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .redditMainTitle {
+        text-align: center;
+        width: 80%;
+    }
+
+    .postFrom {
+        width: 100%;
+    }
+
+    .posts {
+        margin-top: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .eachPost {
+        width: auto;
+        display: block;
+    }
+
+    .selftext {
+        width: 100%;
+        text-align: left;
+    }
+}

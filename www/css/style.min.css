@@ -1,0 +1,332 @@
+.menu {
+  position: fixed;
+  top: 4em;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background: #e8e9f0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  z-index: 2; }
+
+.menu a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #2a6ab2;
+  font-size: 1em; }
+
+.menu svg {
+  display: block; }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  height: 5em;
+  position: fixed; }
+
+.bottomNav {
+  margin-top: 1em;
+  margin-left: 1em;
+  display: inline-block;
+  float: left; }
+
+footer a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #f2f8ff;
+  font-size: 1em;
+  margin-left: 5%;
+  display: block; }
+
+footer ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: #f2f8ff;
+  float: right;
+  margin-right: 12%;
+  font-size: 90%; }
+
+footer ul li {
+  display: block; }
+
+@media only screen and (max-width: 316px) {
+  .bottomNav {
+    width: 40%;
+    font-size: 80%;
+    margin-left: 0.5em; }
+  footer ul {
+    width: 40%;
+    font-size: 60%;
+    margin-right: 5%; } }
+
+.redditMainTitle {
+  display: block;
+  padding-bottom: 3em;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.RedditTitle {
+  margin-left: 3em; }
+
+.title {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.postFrom {
+  display: inline-block;
+  width: 50%;
+  padding-top: 2%;
+  float: right; }
+
+.all, .funny, .memes, .aww {
+  background-color: #2a6ab2;
+  color: #e8e9f0;
+  border: none;
+  border-radius: 12px;
+  width: 40%;
+  font-size: 1em;
+  padding: 0.2em;
+  margin-bottom: 0.2em;
+  margin-right: 0.2em; }
+
+#selected {
+  background-color: #7fb1ff; }
+
+.posts {
+  display: block;
+  width: 90%;
+  padding-bottom: 1em;
+  margin-top: 2em;
+  text-align: center; }
+
+.redditPostUrl {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.eachPost {
+  width: 40%;
+  display: inline-block; }
+
+.postTitle {
+  text-align: center; }
+
+.viewPostTitle {
+  display: block;
+  text-align: center; }
+
+.author {
+  display: block;
+  text-align: center; }
+
+.postImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.share {
+  text-align: center;
+  margin-top: 0.5em; }
+
+.shareButton {
+  margin-right: 0.2em;
+  padding: 0.5em;
+  background-color: #2a6ab2;
+  color: #f2f8ff;
+  border: none; }
+
+.shareInput {
+  padding: 0.5em; }
+
+.addComment {
+  display: block;
+  text-align: center;
+  margin-top: 2em; }
+
+.wannaComment {
+  display: block; }
+
+.commentButton {
+  text-decoration: none;
+  padding: 0.5em;
+  background-color: #2a6ab2;
+  color: #f2f8ff;
+  border: none;
+  display: block;
+  margin-top: -1em;
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%; }
+
+.redditViewComments {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; }
+
+.originComment {
+  margin-left: 0; }
+
+.firstReply {
+  margin-left: 1.5em; }
+
+.secondReply {
+  margin-left: 3em; }
+
+.userName {
+  display: block;
+  font-style: italic; }
+
+.commentText {
+  display: block;
+  margin-top: -0.8em;
+  margin-bottom: 1.5em; }
+
+.selftext {
+  text-align: center;
+  width: 60%; }
+
+@media only screen and (max-width: 750px) {
+  .redditMainTitle {
+    text-align: center;
+    width: 80%; }
+  .postFrom {
+    width: 100%; }
+  .posts {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto; }
+  .eachPost {
+    width: auto;
+    display: block; }
+  .selftext {
+    width: 100%;
+    text-align: left; } }
+
+.mainTitle {
+  display: block;
+  padding-bottom: 3em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.theNews {
+  display: inline-block;
+  width: 50%; }
+
+.newsFrom {
+  display: inline-block;
+  width: 50%;
+  padding-top: 2%; }
+
+.swedish, .english {
+  background-color: #2a6ab2;
+  color: #e8e9f0;
+  border: none;
+  border-radius: 12px;
+  width: 40%;
+  font-size: 1em;
+  padding: 0.2em; }
+
+.swedish {
+  margin-right: 0.5em; }
+
+.newsPosts {
+  width: 90%;
+  padding-bottom: 1em;
+  margin-top: 2em;
+  text-align: center; }
+
+.eachNewsPost {
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  display: inline-block; }
+
+.newsPostImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.newsTitle {
+  text-align: center; }
+
+.description {
+  text-align: center; }
+
+.newsAuthor {
+  display: block;
+  text-align: center; }
+
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 100%; }
+  .Newsposts {
+    text-align: center; }
+  .newsPostImage {
+    width: 100%; }
+  .eachNewsPost {
+    width: auto;
+    display: block;
+    padding-bottom: 4em; }
+  .mainTitle {
+    width: 90%; }
+  .swedish, .english {
+    width: 100%; }
+  .swedish {
+    display: block;
+    margin-bottom: 0.5em; }
+  .english {
+    display: block; } }
+
+body {
+  overflow-x: hidden; }
+
+.header {
+  width: 100%;
+  height: 2em;
+  background: #2a6ab2;
+  color: #f2f8ff;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  top: 0;
+  position: fixed;
+  z-index: 2; }
+
+.container {
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 10em; }
+
+.homeInfo {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.readMore a {
+  text-decoration: none;
+  background-color: #2a6ab2;
+  color: #e8e9f0;
+  border: none;
+  border-radius: 12px;
+  width: 60%;
+  font-size: 1em;
+  padding: 0.3em; }
+
+@media only screen and (max-width: 1000px) {
+  .homeInfo {
+    width: 70%; } }
+
+@media only screen and (max-width: 750px) {
+  .homeInfo {
+    width: 90%; } }

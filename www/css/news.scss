@@ -1,0 +1,105 @@
+@import "variables";
+
+.mainTitle {
+    display: block;
+    padding-bottom: 3em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theNews {
+    display: inline-block;
+    width: 50%;
+}
+
+.newsFrom {
+    display: inline-block;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.swedish, .english {
+    background-color: $main-blue;
+    color: $main-gray;
+    border: none;
+    border-radius: 12px;
+    width: 40%;
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+.swedish {
+    margin-right: 0.5em;
+}
+
+
+.newsPosts {
+    width: 90%;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.eachNewsPost {
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    display: inline-block;
+}
+
+.newsPostImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsTitle {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.newsAuthor {
+    display: block;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .container {
+        width: 100%;
+    }
+
+    .Newsposts {
+        text-align: center;
+    }
+
+    .newsPostImage {
+          width: 100%;
+    }
+
+    .eachNewsPost {
+        width: auto;
+        display: block;
+        padding-bottom: 4em;
+    }
+
+    .mainTitle {
+        width: 90%;
+    }
+
+    .swedish, .english {
+        width: 100%;
+    }
+
+    .swedish {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    .english {
+        display: block;
+    }
+}

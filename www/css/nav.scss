@@ -1,0 +1,27 @@
+@import "variables";
+
+.menu {
+    position: fixed;
+    top: 4em;
+    overflow: hidden;
+    width: 100%;
+    padding-top: $padding-nav;
+    padding-bottom: $padding-nav;
+    background: $main-gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.menu a {
+    list-style-type: none;
+    text-decoration: none;
+    color: $main-blue;
+    font-size: 1em;
+}
+
+.menu svg {
+    display: block;
+}

@@ -1,0 +1,60 @@
+@import "nav";
+@import "footer";
+@import "reddit";
+@import "news";
+@import "variables";
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 2em;
+    background: $main-blue;
+    color: #f2f8ff;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: $padding-header;
+    padding-bottom: $padding-header;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.container {
+    display: block;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.homeInfo {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.readMore a {
+    text-decoration: none;
+    background-color: $main-blue;
+    color: $main-gray;
+    border: none;
+    border-radius: 12px;
+    width: 60%;
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .homeInfo {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .homeInfo {
+        width: 90%;
+    }
+}
