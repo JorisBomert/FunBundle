@@ -1,6 +1,6 @@
 .menu {
-  position: fixed;
-  top: 4em;
+  position: sticky;
+  top: 0;
   overflow: hidden;
   width: 100%;
   padding-top: 0.8rem;
@@ -301,7 +301,6 @@ body {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
   top: 0;
-  position: fixed;
   z-index: 2; }
 
 .container {
